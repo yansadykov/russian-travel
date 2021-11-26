@@ -1,0 +1,27 @@
+.cover__link-visible {
+  min-height: 740px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 1019px) and (max-width: 1274px) {
+  .cover__link-visible {
+      max-width: 1024px;
+      min-height: 640px;
+  }
+}
+
+@media (min-width: 763px) and (max-width: 1018px) {
+  .cover__link-visible {
+      max-width: 767px;
+      min-height: 480px;
+  }
+}
+
+@media screen and (max-width: 762px) {
+  .cover__link-visible {
+      max-width: 318px;
+      min-height: 200px;
+  }
+}

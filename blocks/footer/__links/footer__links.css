@@ -1,0 +1,16 @@
+.footer__links {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: normal;
+  min-width: 70%;
+}
+
+@media screen and (max-width: 762px) {
+  .footer__links {
+      max-width: 50%;
+      margin-right: 0;
+  }
+}

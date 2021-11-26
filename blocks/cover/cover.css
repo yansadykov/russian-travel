@@ -1,0 +1,42 @@
+.cover {
+  margin: 92px auto 0;
+  max-width: 1184px;
+  position: relative;
+  background-image: url(../../images/cover__background.png);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  align-items: center;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  z-index: 1;
+}
+
+.cover::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #2a2c2f;
+  opacity: 0.3;
+  z-index: -1;
+}
+
+.cover:hover::after {
+  opacity: 0.8;
+  cursor: pointer;
+  transition-duration: 1s;
+}
+
+@media (min-width: 763px) and (max-width: 1018px) {
+  .cover {
+      margin: 90px auto 0;
+  }
+}
+
+@media screen and (max-width: 762px) {
+  .cover {
+      margin: 66px auto 0;
+  }
+}

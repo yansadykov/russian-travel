@@ -1,0 +1,15 @@
+.place__website {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+@media screen and (max-width: 762px) {
+  .place__website {
+      margin: 32px 0 0 16px;
+      min-width: 200px;
+  }
+}
