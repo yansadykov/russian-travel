@@ -3,6 +3,8 @@
   width: 100%;
   display: flex;
   flex-direction: column;
+  text-decoration: none;
+  color: white;
 }
 
 @media (min-width: 1019px) and (max-width: 1274px) {
