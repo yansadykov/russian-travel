@@ -7,4 +7,4 @@ CSS
 Адаптивная врестка Grid, Flex, медиа-запросы
 Figma
 
-Ссылка на проект: https://github.com/yansadykov/russian-travel
+Ссылка на проект: https://yansadykov.github.io/russian-travel/
